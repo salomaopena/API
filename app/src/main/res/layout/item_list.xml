@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardUseCompatPadding="true"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_name"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_name"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_name"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_birthday"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_birthday"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_birthday"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_city"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_city"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_city"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_province"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_province"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_province"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_status"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_status"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_status"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight=".8"
+                android:text="@string/patient_ceated_at"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/default_dimen"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_patient_created_at"
+                android:layout_margin="@dimen/default_dimen"
+                android:layout_weight="1.2"
+                android:text="@string/patient_ceated_at"
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

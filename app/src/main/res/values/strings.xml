@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">API</string>
+    <string name="tx_subtitle">Consumir uma API REST com Android</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="patient_name">Paciente:</string>
+    <string name="patient_birthday">Nasceu em:</string>
+    <string name="patient_address">Morada:</string>
+    <string name="patient_city">Cidade:</string>
+    <string name="patient_province">Província:</string>
+    <string name="patient_status">Estado:</string>
+    <string name="patient_ceated_at">Publicado em:</string>
+</resources>
