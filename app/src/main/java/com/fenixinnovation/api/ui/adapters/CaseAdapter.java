@@ -41,7 +41,7 @@ public class CaseAdapter extends RecyclerView.Adapter<CaseAdapter.CaseViewHolder
             holder.name.setText(model.getName() + " "+model.getNickname());
             holder.birthday.setText(model.getBirthday());
             holder.city.setText(model.getCity());
-            holder.province.setText(model.getCity());
+            holder.province.setText(model.getProvince());
             holder.status.setText(model.getStatus());
             holder.createdAt.setText(model.getCreatedAt());
 
